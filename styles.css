@@ -58,6 +58,7 @@ nav {
     font-weight: regular;
     font-size: 16px;
     color: black;
+    transition: ease-out 0.2s;
 }
 
 .nav-text:hover {
@@ -105,28 +106,36 @@ header {
 
 .primary {
     background-color: black;
+    font-size: 16px;
     color: white;
     border: 2px solid #797979;
     padding: 10px 20px;
     width: fit-content;
     border-radius: 30px;
     margin-top: 20px;
+    transition: ease-out 0.2s;
 }
 
 .primary:hover {
     background-color: #2f2f2f;
+    padding: 12px 22px;
+    font-size: 17px;
 }
 
 .secondary {
     color: black;
+    font-size: 16px;
     background-color: white;
     padding: 10px 25px;
     border: 2px solid #dedede;
     border-radius: 50px;
+    transition: ease-out 0.2s;
 }
 
 .secondary:hover {
     color: #797979;
+    padding: 13px 28px;
+    font-size: 17px;
 }
 
 footer {
@@ -197,4 +206,26 @@ nav {
     font-weight: lighter;
     text-align: left;
     margin-top: 30px;
+}
+
+.seminar-header {
+    background-image: url(images/header-bg.png);
+    background-size: 100% auto;
+    padding-bottom: 100px;
+}
+
+.seminar-link-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 80px 40px 80px;
+}
+
+.seminar-link {
+    color: black;
+    font-size: 16px;
+    transition: ease-out 0.2s;
+}
+
+.seminar-link:hover {
+    color: #4C423A;
 }
